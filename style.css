@@ -1,1 +1,131 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #0f0b1a;
+    color: #f5f5f5;
+}
 
+/* Navigation */
+header {
+    padding: 20px 40px;
+    background-color: #09070f;
+    border-bottom: 1px solid #2d1b45;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > a {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul a {
+    color: #d8c4f0;
+}
+
+nav ul a:hover {
+    color: #a855f7;
+}
+
+/* Main content */
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Sections */
+section {
+    padding: 70px 0;
+    border-bottom: 1px solid #241936;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #a855f7;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #d8c4f0;
+}
+
+p {
+    color: #d1d1d1;
+    max-width: 800px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #a855f7;
+}
+
+a:hover {
+    color: #c084fc;
+}
+
+/* Lists */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Projects and Certifications */
+article {
+    background-color: #171124;
+    padding: 25px;
+    margin: 20px 0;
+    border: 1px solid #2d1b45;
+    border-radius: 8px;
+}
+
+article a {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Contact */
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact li {
+    margin-bottom: 12px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #09070f;
+}
+
+footer p {
+    margin: 0;
+    max-width: none;
+    color: #999;
+}
