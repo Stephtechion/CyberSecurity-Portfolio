@@ -1,17 +1,24 @@
-/* General */
+/* =========================
+   GENERAL
+========================= */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     line-height: 1.6;
-    background-color: #0f0b1a;
-    color: #f5f5f5;
+    background-color: #0b1220;
+    color: #e5e7eb;
 }
 
-/* Navigation */
+
+/* =========================
+   NAVIGATION
+========================= */
+
 header {
     padding: 20px 40px;
-    background-color: #09070f;
-    border-bottom: 1px solid #2d1b45;
+    background-color: #111827;
+    border-bottom: 1px solid #263247;
 }
 
 nav {
@@ -35,56 +42,73 @@ nav ul {
 }
 
 nav ul a {
-    color: #d8c4f0;
+    color: #cbd5e1;
 }
 
 nav ul a:hover {
-    color: #a855f7;
+    color: #60a5fa;
 }
 
-/* Main content */
+
+/* =========================
+   MAIN CONTENT
+========================= */
+
 main {
     max-width: 1000px;
     margin: auto;
     padding: 20px;
 }
 
-/* Sections */
+
+/* =========================
+   SECTIONS
+========================= */
+
 section {
     padding: 70px 0;
-    border-bottom: 1px solid #241936;
+    border-bottom: 1px solid #1e293b;
 }
 
 h1 {
     font-size: 48px;
     margin-bottom: 10px;
+    color: #ffffff;
 }
 
 h2 {
-    color: #a855f7;
+    color: #60a5fa;
     margin-bottom: 20px;
 }
 
 h3 {
-    color: #d8c4f0;
+    color: #e2e8f0;
 }
 
 p {
-    color: #d1d1d1;
+    color: #cbd5e1;
     max-width: 800px;
 }
 
-/* Links */
+
+/* =========================
+   LINKS
+========================= */
+
 a {
     text-decoration: none;
-    color: #a855f7;
+    color: #60a5fa;
 }
 
 a:hover {
-    color: #c084fc;
+    color: #93c5fd;
 }
 
-/* Lists */
+
+/* =========================
+   LISTS
+========================= */
+
 ul {
     padding-left: 20px;
 }
@@ -93,12 +117,16 @@ li {
     margin-bottom: 8px;
 }
 
-/* Projects and Certifications */
+
+/* =========================
+   PROJECTS / CERTIFICATIONS
+========================= */
+
 article {
-    background-color: #171124;
+    background-color: #111827;
     padding: 25px;
     margin: 20px 0;
-    border: 1px solid #2d1b45;
+    border: 1px solid #263247;
     border-radius: 8px;
 }
 
@@ -107,7 +135,11 @@ article a {
     margin-top: 10px;
 }
 
-/* Contact */
+
+/* =========================
+   CONTACT
+========================= */
+
 #contact ul {
     list-style: none;
     padding: 0;
@@ -117,15 +149,19 @@ article a {
     margin-bottom: 12px;
 }
 
-/* Footer */
+
+/* =========================
+   FOOTER
+========================= */
+
 footer {
     text-align: center;
     padding: 25px;
-    background-color: #09070f;
+    background-color: #111827;
 }
 
 footer p {
     margin: 0;
     max-width: none;
-    color: #999;
+    color: #94a3b8;
 }
